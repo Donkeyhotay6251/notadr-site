@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>notadr.org - Community Natural Remedies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>notadr.org</h1>
+            <p class="tagline">Not a Doctor. Real Experiences.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="search-section">
+            <h2>What are you looking for?</h2>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search for remedies, vitamins, herbs...">
+                <button id="searchBtn">Search</button>
+            </div>
+            <p class="search-hint">Search by symptom (headache, anxiety, insomnia) or remedy name (vitamin d, magnesium, elderberry)</p>
+        </section>
+
+        <section class="disclaimer-banner">
+            <strong>⚠️ Important Disclaimer:</strong> notadr.org provides community-submitted personal experiences only. We are NOT medical professionals, and the content on this site is NOT medical advice. Always consult a qualified healthcare provider before starting any supplement, herb, or wellness regimen — especially if you take medications, have health conditions, or are pregnant/nursing. Individual results vary. We are not responsible for any health decisions made based on information found on this site.
+        </section>
+
+        <section id="resultsSection" class="results-section" style="display: none;">
+            <h3>Results:</h3>
+            <div id="resultsList"></div>
+        </section>
+
+        <section class="categories-section">
+            <h3>Popular Categories</h3>
+            <div class="categories">
+                <button class="category-btn" data-category="vitamins">Vitamins</button>
+                <button class="category-btn" data-category="herbs">Herbs</button>
+                <button class="category-btn" data-category="minerals">Minerals</button>
+                <button class="category-btn" data-category="home-remedies">Home Remedies</button>
+                <button class="category-btn" data-category="lifestyle">Lifestyle</button>
+            </div>
+        </section>
+
+        <section class="add-section">
+            <h3>Know something that works?</h3>
+            <p>Community experiences make this wiki grow. <a href="#" id="addRemedyLink">Add your remedy</a> to help others.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 notadr.org — Community-driven natural remedy experiences.</p>
+            <p class="footer-disclaimer"><strong>Not Medical Advice:</strong> Content on notadr.org represents user-submitted personal experiences only and is provided for informational purposes. This site does not constitute medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition. Never disregard professional medical advice or delay in seeking it because of something you have read on this site.</p>
+        </div>
+    </footer>
+
+    <script src="search.js"></script>
+</body>
+</html>
