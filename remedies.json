@@ -1,0 +1,154 @@
+{
+  "remedies": [
+    {
+      "id": 1,
+      "name": "Vitamin D3",
+      "category": "vitamins",
+      "aliases": ["vitamin d", "d3", "cholecalciferol"],
+      "ailments": ["vitamin d deficiency", "seasonal affective disorder", " SAD", "bone health", "immune support", "mood"],
+      "experience": "Taking 5000 IU daily with a fatty meal dramatically improved my energy levels during winter months. Had been chronically tired for years. Blood tests showed deficiency. After 3 months of consistent dosing, energy returned to normal.",
+      "dosage": "2000-5000 IU daily (with fat)",
+      "tags": ["energy", "mood", "immune", "winter"]
+    },
+    {
+      "id": 2,
+      "name": "Magnesium Glycinate",
+      "category": "minerals",
+      "aliases": ["magnesium", "mg glycinate", "magnesium bisglycinate"],
+      "ailments": ["insomnia", "anxiety", "muscle cramps", "restless leg", "sleep", "stress"],
+      "experience": "400mg before bed completely changed my sleep quality. Took about 2 weeks to notice full effects. No more waking up at 3am. Also helped with muscle tension I had in my shoulders.",
+      "dosage": "200-400mg before bed",
+      "tags": ["sleep", "anxiety", "muscle", "relaxation"]
+    },
+    {
+      "id": 3,
+      "name": "Elderberry",
+      "category": "herbs",
+      "aliases": ["elderberry", "sambucus", "elderberry syrup"],
+      "ailments": ["cold", "flu", "immune", "respiratory", "sinus"],
+      "experience": "Taking elderberry syrup daily during cold season has been a game changer. Last time I felt a cold coming on, I doubled doses for 3 days and it never fully developed. Use the syrup with real elderberry, not artificial.",
+      "dosage": "500mg extract or 1 tbsp syrup daily",
+      "tags": ["immune", "cold", "flu", "prevention"]
+    },
+    {
+      "id": 4,
+      "name": "Vitamin C",
+      "category": "vitamins",
+      "aliases": ["vitamin c", "ascorbic acid", "liposomal vitamin c"],
+      "ailments": ["immune", "cold", "skin", "collagen", "antioxidant"],
+      "experience": "Taking 2000mg daily (split into 500mg doses throughout day) keeps my immune system strong. Notice I get sick less often. Liposomal form is easier on stomach than ascorbic acid powder.",
+      "dosage": "500-2000mg daily, split doses",
+      "tags": ["immune", "antioxidant", "skin"]
+    },
+    {
+      "id": 5,
+      "name": "Ashwagandha",
+      "category": "herbs",
+      "aliases": ["ashwagandha", "withania somnifera", "ksm-66"],
+      "ailments": ["stress", "anxiety", "adrenal fatigue", "cortisol", "sleep", "thyroid"],
+      "experience": "KSM-66 extract, 600mg daily. Felt the effects within a week - much calmer under stress, less anxiety. Helps with sleep if taken in evening. Not a sedative but takes the edge off everything.",
+      "dosage": "300-600mg daily",
+      "tags": ["stress", "anxiety", "adrenal", "calm"]
+    },
+    {
+      "id": 6,
+      "name": "Zinc",
+      "category": "minerals",
+      "aliases": ["zinc", "zinc picolinate", "zinc gluconate"],
+      "ailments": ["immune", "testosterone", "skin", "wound healing", "taste"],
+      "experience": "30mg zinc picolinate daily keeps my immune system working. Important to take with food to avoid nausea. Combined with copper (2mg) to prevent imbalance. Notice fewer colds.",
+      "dosage": "15-30mg daily with food",
+      "tags": ["immune", "skin", "testosterone"]
+    },
+    {
+      "id": 7,
+      "name": "Omega-3 Fish Oil",
+      "category": "lifestyle",
+      "aliases": ["omega-3", "fish oil", "epa", "dha", "krill oil"],
+      "ailments": ["inflammation", "joint pain", "heart health", "brain fog", "mood", "triglycerides"],
+      "experience": "High-quality fish oil (2000mg combined EPA/DHA) daily reduced joint aches within a month. Also notice clearer thinking and better mood stability. Important to find burpless/minimize fish burps.",
+      "dosage": "2000-3000mg combined EPA/DHA",
+      "tags": ["inflammation", "joint", "brain", "heart"]
+    },
+    {
+      "id": 8,
+      "name": "Melatonin",
+      "category": "home-remedies",
+      "aliases": ["melatonin", "sleep hormone"],
+      "ailments": ["insomnia", "sleep onset", "jet lag", "circadian rhythm"],
+      "experience": "0.5-1mg sublingual at bedtime helps me fall asleep. Don't need much - more doesn't work better. Use the sublingual kind that dissolves under tongue. Critical for resetting sleep schedule.",
+      "dosage": "0.5-3mg at bedtime",
+      "tags": ["sleep", "insomnia", "jet lag"]
+    },
+    {
+      "id": 9,
+      "name": "Vitamin B12",
+      "category": "vitamins",
+      "aliases": ["b12", "cobalamin", "methylcobalamin"],
+      "ailments": ["energy", "fatigue", "brain fog", "b12 deficiency", "vegan", "nerve"],
+      "experience": "Sublingual methylcobalamin 5000mcg daily. Had chronic fatigue that doctors couldn't explain. Turned out to be B12 deficiency (common in vegans). Within weeks, energy returned. Get levels checked first.",
+      "dosage": "1000-5000mcg daily (sublingual)",
+      "tags": ["energy", "fatigue", "brain", "b12"]
+    },
+    {
+      "id": 10,
+      "name": "Ginger",
+      "category": "herbs",
+      "aliases": ["ginger", "ginger root", "zingiber officinale"],
+      "ailments": ["nausea", "digestion", "inflammation", "pain", "motion sickness"],
+      "experience": "Fresh ginger tea for nausea works better than Dramamine for me. Also helps with digestion after heavy meals. Anti-inflammatory effects noticeable when taking daily for joint pain.",
+      "dosage": "1-2g fresh ginger or 500mg powder",
+      "tags": ["nausea", "digestion", "pain"]
+    },
+    {
+      "id": 11,
+      "name": "Turmeric / Curcumin",
+      "category": "herbs",
+      "aliases": ["turmeric", "curcumin", "golden milk", "curcuma"],
+      "ailments": ["inflammation", "joint pain", "arthritis", "brain inflammation"],
+      "experience": "Bioavailable curcumin (with piperine/black pepper) daily has significantly reduced joint inflammation. Takes 2-3 weeks to notice full effects. Combine with black pepper or fat for absorption.",
+      "dosage": "500-1000mg curcumin with pepperine",
+      "tags": ["inflammation", "joint", "pain", "brain"]
+    },
+    {
+      "id": 12,
+      "name": "Valerian Root",
+      "category": "herbs",
+      "aliases": ["valerian", "valerian root", "valeriana officinalis"],
+      "ailments": ["insomnia", "anxiety", "sleep", "restlessness"],
+      "experience": "600mg valerian extract 30min before bed helps with sleep onset. Has a distinct smell but capsules mask it. Not as strong as OTC sleep aids but no groggy next-day feeling.",
+      "dosage": "400-900mg extract before bed",
+      "tags": ["sleep", "insomnia", "calm"]
+    },
+    {
+      "id": 13,
+      "name": "Iron",
+      "category": "minerals",
+      "aliases": ["iron", "ferrous", "ferritin", "iron deficiency"],
+      "ailments": ["anemia", "fatigue", "iron deficiency", "energy", "hair loss"],
+      "experience": "Had low ferritin (iron stores). After supplementing with iron bisglycinate (gentler on stomach) for 3 months, energy returned and hair stopped falling out so much. Get bloodwork done first.",
+      "dosage": "18-65mg elemental iron daily",
+      "tags": ["energy", "anemia", "hair"]
+    },
+    {
+      "id": 14,
+      "name": "Probiotics",
+      "category": "lifestyle",
+      "aliases": ["probiotics", "probiotic", "gut health", "flora"],
+      "ailments": ["digestion", "gut health", "immune", "brain gut axis", "bloating"],
+      "experience": "50 billion CFU probiotic with multiple strains daily. Notice less bloating, better digestion, improved mood. Gut health really does seem connected to overall wellbeing. Find one that survives stomach acid.",
+      "dosage": "25-100 billion CFU daily",
+      "tags": ["gut", "digestion", "immune", "mood"]
+    },
+    {
+      "id": 15,
+      "name": "Vitamin B-Complex",
+      "category": "vitamins",
+      "aliases": ["b complex", "b-complex", "b vitamins", "b1 b2 b3 b5 b6 b7 b9 b12"],
+      "ailments": ["energy", "stress", "mood", "metabolism", "hair"],
+      "experience": "Taking B-complex daily (particularly B12, B6, folate) has helped with energy and mood stability. Important for stress support. B vitamins are water soluble so excess just gets excreted.",
+      "dosage": "1 capsule daily",
+      "tags": ["energy", "stress", "mood"]
+    }
+  ]
+}
