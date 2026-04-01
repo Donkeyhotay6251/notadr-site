@@ -45,22 +45,21 @@ header h1 {
 
 .tagline-top {
     font-family: 'Fredoka', 'Baloo 2', 'Comic Neue', sans-serif;
-    font-size: 4rem;
-    font-weight: 900;
-    color: #fff;
-    -webkit-text-stroke: 3px #ff4757;
-    text-shadow: 4px 4px 0 #1a3d5c, 8px 8px 0 rgba(0,0,0,0.2);
-    letter-spacing: 6px;
-    margin-bottom: 40px;
-    animation: bounce 2s ease-in-out infinite;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #ff4757;
+    letter-spacing: 4px;
+    margin-bottom: 35px;
     display: inline-block;
-    padding: 20px 80px;
-    border: 4px solid #ff4757;
-    border-radius: 50px;
-    background: linear-gradient(135deg, #ff4757 0%, #ff6b6b 100%);
-    box-shadow: 0 12px 0 #1a3d5c, 0 20px 30px rgba(0,0,0,0.3);
-    transform: scaleX(1.2) rotate(-2deg);
-    -webkit-text-fill-color: #fff;
+    padding: 15px 50px;
+    background: linear-gradient(180deg, #ff6b6b 0%, #ff4757 50%, #e63946 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(3px 3px 0 #1a3d5c) drop-shadow(0 5px 0 rgba(0,0,0,0.2));
+    transform: scaleX(1.1);
+    border-bottom: 4px solid #ff4757;
+    border-radius: 10px 10px 80% 80% / 10px 10px 30% 30%;
+    box-shadow: 0 8px 0 #1a3d5c;
 }
 
 .tagline-bottom {
