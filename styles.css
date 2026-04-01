@@ -20,33 +20,90 @@ body {
 
 /* Header */
 header {
-    background: linear-gradient(135deg, #2d5a27 0%, #4a7c43 100%);
+    background: linear-gradient(135deg, #1a3d5c 0%, #2d5a27 100%);
     color: white;
-    padding: 40px 0;
+    padding: 50px 0;
     text-align: center;
 }
 
 header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 5px;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 .tagline {
+    font-size: 1.4rem;
+    font-weight: 400;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.5;
+    padding: 10px 0;
+}
+
+.tagline .highlight-doctor {
+    color: #ffdd57;
+    font-weight: 600;
+}
+
+.tagline .highlight-community {
+    color: #7dd87d;
+    font-weight: 600;
+}
+
+/* Community callout */
+.community-callout {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 35px 20px;
+    text-align: center;
+    border-bottom: 3px solid #1a3d5c;
+}
+
+.community-callout p {
     font-size: 1.1rem;
-    opacity: 0.9;
+    color: #333;
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.community-callout p:first-child {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1a3d5c;
+}
+
+.community-callout .sub {
+    font-size: 0.95rem;
+    color: #666;
+    font-style: italic;
+}
+
+.community-callout a {
+    color: #2d5a27;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.community-callout a:hover {
+    color: #4a7c43;
 }
 
 /* Search section */
 .search-section {
     background: white;
-    padding: 40px 20px;
+    padding: 50px 20px;
     text-align: center;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
 .search-section h2 {
-    margin-bottom: 20px;
-    color: #2d5a27;
+    margin-bottom: 25px;
+    color: #1a3d5c;
+    font-size: 1.8rem;
+    font-weight: 600;
 }
 
 .search-box {
@@ -70,14 +127,17 @@ header h1 {
 }
 
 .search-box button {
-    padding: 15px 30px;
+    padding: 15px 35px;
     font-size: 1rem;
-    background: #2d5a27;
+    font-weight: 600;
+    background: #1a3d5c;
     color: white;
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    transition: background 0.2s;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 .search-box button:hover {
@@ -141,6 +201,74 @@ header h1 {
 .result-item .remedy-experience {
     color: #555;
     font-size: 0.95rem;
+    margin: 15px 0;
+}
+
+/* Free things section */
+.free-things {
+    background: #e8f5e9;
+    border: 1px solid #4caf50;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.free-things h5 {
+    color: #2e7d32;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.free-things ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.free-things li {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Sources section */
+.sources-section {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.sources-section h5 {
+    color: #495057;
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+}
+
+.sources-list {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 0.85rem;
+    color: #555;
+}
+
+.sources-list li {
+    margin-bottom: 5px;
+}
+
+.no-sources {
+    font-size: 0.85rem;
+    color: #888;
+    font-style: italic;
+}
+
+.legal-note {
+    margin-top: 10px;
+    padding: 10px;
+    background: #fff3cd;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    color: #856404;
+    line-height: 1.4;
 }
 
 .result-item .remedy-tags {
