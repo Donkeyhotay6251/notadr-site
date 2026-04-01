@@ -50,8 +50,13 @@ header h1 {
     text-shadow: 2px 2px 0 #1a3d5c, 4px 4px 0 rgba(0,0,0,0.2);
     letter-spacing: 2px;
     font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
-    margin-bottom: 5px;
+    margin-bottom: 25px;
     animation: bounce 2s ease-in-out infinite;
+    display: inline-block;
+    padding: 10px 30px;
+    border-bottom: 3px solid #1a3d5c;
+    border-radius: 0 0 50% 50% / 0 0 20% 20%;
+    box-shadow: 0 8px 0 rgba(0,0,0,0.1);
 }
 
 .tagline-bottom {
