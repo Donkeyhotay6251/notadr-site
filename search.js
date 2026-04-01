@@ -43,10 +43,10 @@ function searchRemedies(query) {
         if (remedy.name.toLowerCase().includes(query)) return true;
         
         // Search in aliases
-        if (remedy.aliases.some(alias => alias.toLowerCase().includes(query))) return true;
+        if (remedy.aliases && remedy.aliases.some(alias => alias.toLowerCase().includes(query))) return true;
         
         // Search in ailments
-        if (remedy.ailments.some(ailment => ailment.toLowerCase().includes(query))) return true;
+        if (remedy.ailments && remedy.ailments.some(ailment => ailment.toLowerCase().includes(query))) return true;
         
         // Search in tags
         if (remedy.tags && remedy.tags.some(tag => tag.toLowerCase().includes(query))) return true;
@@ -71,11 +71,27 @@ function displayResults(results, query) {
         <div class="result-item">
             <h4>${remedy.name}</h4>
             <span class="remedy-category">${remedy.category}</span>
-            <p class="remedy-experience">${remedy.experience}</p>
+            
+            ${remedy.freeThings ? `
+            <div class="free-things">
+                <h5>Free things you can try:</h5>
+                <ul>${remedy.freeThings.map(thing => `<li>${thing}</li>`).join('')}</ul>
+            </div>` : ''}
+            
+            <p class="remedy-experience"><strong>Experience:</strong> ${remedy.experience}</p>
             <p class="remedy-dosage"><strong>Typical dosage:</strong> ${remedy.dosage}</p>
             <p class="remedy-tags">
-                <strong>Helps with:</strong> ${remedy.ailments.join(', ')}
+                <strong>Helps with:</strong> ${remedy.ailments ? remedy.ailments.join(', ') : 'N/A'}
             </p>
+            
+            <div class="sources-section">
+                <h5>Sources & References:</h5>
+                ${remedy.sources && remedy.sources.length > 0 ? 
+                    `<ul class="sources-list">${remedy.sources.map(source => `<li>${source}</li>`).join('')}</ul>` :
+                    `<p class="no-sources">No specific sources cited yet.</p>`}
+                <p class="legal-note">While we have made every attempt to clearly state that our site is not backed by science or the established medical community, we share sources that suggest there may be benefits. This is not medical advice. Always consult a healthcare professional.</p>
+            </div>
+            
             <p class="item-disclaimer"><strong>Disclaimer:</strong> This is one person's experience. It is not medical advice. What works for one person may not work for another. Check with your doctor, especially if you take medications.</p>
         </div>
     `).join('');
