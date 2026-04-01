@@ -43,6 +43,30 @@ header h1 {
     padding: 10px 0;
 }
 
+.tagline-top {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #ffdd57;
+    text-shadow: 2px 2px 0 #1a3d5c, 4px 4px 0 rgba(0,0,0,0.2);
+    letter-spacing: 2px;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    margin-bottom: 5px;
+    animation: bounce 2s ease-in-out infinite;
+}
+
+.tagline-bottom {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #7dd87d;
+    font-style: italic;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
+
 .tagline .highlight-doctor {
     color: #ffdd57;
     font-weight: 600;
